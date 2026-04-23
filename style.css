@@ -599,7 +599,7 @@ textarea.form-input { resize: vertical; min-height: 120px; }
 
 .footer-inner {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2rem;
   padding-bottom: 2rem;
   border-bottom: 1px solid rgba(139,94,60,0.12);
@@ -609,6 +609,7 @@ textarea.form-input { resize: vertical; min-height: 120px; }
 
 .footer-locations ul { display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem; color: var(--text-muted); list-style: none; padding: 0; margin: 0; }
 .footer-contacts h4,
+.footer-locations h4,
 .footer-social h4 {
   font-family: var(--font-sans);
   font-size: 0.8rem;
