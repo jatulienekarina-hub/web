@@ -1,0 +1,60 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "assets"
+public_folder: "/assets"
+
+collections:
+  - name: "content"
+    label: "Tekstai"
+    files:
+      - name: "home"
+        label: "Pagrindinis puslapis"
+        file: "_content/home.json"
+        format: json
+        fields:
+          - label: "Hero (pradžios blokas)"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Antraštė", name: "title", widget: "string" }
+              - { label: "Pagrindinis tekstas", name: "text", widget: "text" }
+              - { label: "Papildomas tekstas", name: "text2", widget: "text" }
+
+          - label: "Apie mane"
+            name: "about"
+            widget: "object"
+            fields:
+              - { label: "Antraštė", name: "title", widget: "string" }
+              - { label: "1 pastraipa", name: "p1", widget: "text" }
+              - { label: "2 pastraipa", name: "p2", widget: "text" }
+              - { label: "3 pastraipa", name: "p3", widget: "text" }
+
+          - label: "Metodas"
+            name: "method"
+            widget: "object"
+            fields:
+              - { label: "Antraštė", name: "title", widget: "string" }
+              - { label: "Įvadas", name: "intro", widget: "text" }
+              - { label: "Psichika — tekstas", name: "psyche", widget: "text" }
+              - { label: "Kūnas — tekstas", name: "body", widget: "text" }
+              - { label: "Protas — tekstas", name: "mind", widget: "text" }
+              - { label: "PSY.20 aprašymas", name: "psy20", widget: "text" }
+
+          - label: "Paslaugos"
+            name: "services"
+            widget: "object"
+            fields:
+              - { label: "Psichosomatiniai sutrikimai", name: "s1", widget: "text" }
+              - { label: "Santykiai", name: "s2", widget: "text" }
+              - { label: "Vaikiški simptomai", name: "s3", widget: "text" }
+              - { label: "Sudėtingos situacijos", name: "s4", widget: "text" }
+              - { label: "Bioreguliacinė kūno terapija", name: "s5", widget: "text" }
+
+          - label: "Susisiekime"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Antraštė", name: "title", widget: "string" }
+              - { label: "Tekstas", name: "text", widget: "text" }
