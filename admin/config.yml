@@ -11,7 +11,7 @@ collections:
     files:
       - name: "home"
         label: "Pagrindinis puslapis"
-        file: "_content/home.json"
+        file: "content/home.json"
         format: json
         fields:
           - label: "Hero (pradžios blokas)"

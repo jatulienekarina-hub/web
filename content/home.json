@@ -1,0 +1,32 @@
+{
+  "hero": {
+    "title": "Karina Jatulienė",
+    "text": "Dirbu su žmogumi kaip su visuma: psichika · kūnas · protas. Ne tik kalbame — ieškome tikrųjų priežasčių ir dirbame su jomis. Pokytis ateina, kai pasiekiame tikrąją šaknį.",
+    "text2": "Konsultacijos gyvai Vilniuje arba nuotoliniu būdu. Pirmasis 20 min. pokalbis — nemokamas."
+  },
+  "about": {
+    "title": "Praktikuojanti psichologė · Psichosomatikos specialistė",
+    "p1": "Prieš tapant psichologe — dvidešimt metų dirbau personalo vadove. Tūkstančiai žmonių, jų santykiai, baimės, simptomai, krizės. Mokiausi ne tik iš knygų — iš gyvų istorijų. Ir pamačiau: daugelio problemų šaknys slepiasi ten, kur mažiausiai tikimasi — psichikos ir kūno sąsajoje.",
+    "p2": "Specializuojuosi psichosomatikoje — ten, kur kūnas kalba tai, ko žmogus dar negali pasakyti žodžiais. Dirbu pagal PSY.20 metodą: holistinę sistemą, kuri žiūri į žmogų kaip į visumą — psichologiją, fiziologiją ir kūno signalus kartu. Papildau junginės ir adlerianistinės psichologijos įžvalgomis, EMDR metodika bei kūno terapija.",
+    "p3": "Dirbu tik individualiai — kiekvienas žmogus ir kiekviena situacija yra skirtinga. Jokių grupių, jokių standartinių sprendimų."
+  },
+  "method": {
+    "title": "Dirbu su žmogumi kaip su visuma",
+    "intro": "Daugelis psichologų dirba su mintimis. Aš dirbu su visa sistema — nes ilgalaikis pokytis vyksta ten, kur sujungiami visi trys lygmenys.",
+    "psyche": "Emocijos, nesąmoningi įsitikinimai, pasąmonės šablonai — visa tai, ko negalima pakeisti vien noru ar valia. Dirbame su tuo, kas gilu ir paslėpta.",
+    "body": "Kūno simptomai yra psichikos kalba. Ligos, skausmai, įtampos — ne atsitiktinumas, o tikslus signalas. Mokomės jo klausytis ir suprasti jo prasmę.",
+    "mind": "Mąstymo ir elgesio šablonai, kurie kartojasi — net kai žinote, kad žalingi. Pertvarkome juos sąmoningai ir tvariai.",
+    "psy20": "PSY.20 — holistinis požiūris į žmogų, sukurtas M. Filiajevo. Metodas vertina psichologiją, fiziologiją ir psichosomatiką kaip vieną nedalomą sistemą: simptomas nėra klaida, o signalas, turintis tikslią prasmę. Tai leidžia rasti priežastį, o ne tik malšinti pasekmes."
+  },
+  "services": {
+    "s1": "Kūno simptomai — ligos, skausmai, lėtinis nuovargis, nemiga — visada turi psichologinį komponentą. Kartu randame emocinę priežastį ir dirbame su ja. To dažnai pakanka, kad simptomai išnyktų arba ženkliai sumažėtų.",
+    "s2": "Kai santykiai skaudina, o priežastis neaiški — ar kalbame apie partnerį, tėvus ar santykį su savimi. Dirbame individualiai. Santykiai keičiasi natūraliai, kai suprantame, kas iš tiesų vyksta.",
+    "s3": "Vaiko simptomai dažnai atspindi tai, kas vyksta šeimoje. Darbas vyksta ir su vaiku, ir su tėvais — nes vaikas keičiasi tada, kai keičiasi aplinka aplink jį.",
+    "s4": "Sunkios diagnozės, gilios krizės, situacijos, kurių negalima „išspręsti" — tik praeiti. Einu šalia. Turiu tiek asmeninės patirties tokiuose keliuose, tiek profesinių įrankių jiems įveikti.",
+    "s5": "Gilioji kūno terapija, kuri dirbant su kūno blokadais ir energetiniais laukais padeda pasiekti tai, ko kartais neįmanoma pasiekti vien kalbant. Skirta tiems, kam reikia dirbti kūno lygmeniu."
+  },
+  "contact": {
+    "title": "Pradžia — nemokamas 20 min. pokalbis",
+    "text": "Pirmiausia pasikalbame. Jūs papasakojate, aš paklausau. Sprendžiame kartu, ar ir kaip galėčiau padėti. Jokio įsipareigojimo."
+  }
+}

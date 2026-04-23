@@ -1,5 +1,5 @@
 // Load content from JSON and populate page
-fetch('/_content/home.json')
+fetch('/content/home.json')
   .then(r => r.json())
   .then(c => {
     const set = (sel, val) => { const el = document.querySelector(sel); if (el && val) el.textContent = val; };
