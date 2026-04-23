@@ -701,8 +701,9 @@ textarea.form-input { resize: vertical; min-height: 120px; }
 
   .method-grid { grid-template-columns: 1fr; }
   .certs-grid { grid-template-columns: 1fr; }
-  .pricing-callout { gap: 1.5rem; }
-  .pricing-divider { width: 40px; height: 1px; }
+  .pricing-callout { gap: 1.2rem; flex-wrap: wrap; justify-content: space-around; }
+  .pricing-divider { display: none; }
+  .pricing-item { min-width: 120px; }
 
   .footer-inner { grid-template-columns: 1fr; gap: 1.5rem; }
 
