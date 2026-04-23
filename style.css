@@ -355,7 +355,7 @@ section { padding: 5rem 0; }
 
 .method-icon {
   font-family: var(--font-serif);
-  font-size: 2rem;
+  font-size: 1.2rem;
   color: var(--accent);
   margin-bottom: 0.75rem;
 }
@@ -479,8 +479,8 @@ section { padding: 5rem 0; }
 
 .pdf-icon {
   flex-shrink: 0;
-  width: 64px;
-  height: 64px;
+  width: 44px;
+  height: 44px;
   background: var(--accent);
   border-radius: var(--radius);
   display: flex;
@@ -488,7 +488,7 @@ section { padding: 5rem 0; }
   justify-content: center;
   color: var(--bg);
 }
-.pdf-icon svg { width: 30px; height: 30px; }
+.pdf-icon svg { width: 20px; height: 20px; }
 
 .pdf-text { flex: 1; }
 
