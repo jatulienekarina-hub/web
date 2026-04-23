@@ -607,6 +607,7 @@ textarea.form-input { resize: vertical; min-height: 120px; }
 
 .footer-logo img { height: 60px; width: auto; }
 
+.footer-locations ul { display: flex; flex-direction: column; gap: 0.4rem; font-size: 0.9rem; color: var(--text-muted); list-style: none; padding: 0; margin: 0; }
 .footer-contacts h4,
 .footer-social h4 {
   font-family: var(--font-sans);
