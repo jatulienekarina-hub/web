@@ -403,17 +403,18 @@ section { padding: 5rem 0; }
 }
 .pricing-value {
   font-family: var(--font-serif);
-  font-size: 1.6rem;
-  color: var(--accent);
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: var(--text);
   display: block;
   line-height: 1;
   margin-bottom: 0.3rem;
 }
 .pricing-label {
-  font-size: 0.78rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
 }
 .pricing-divider {
   width: 1px;
