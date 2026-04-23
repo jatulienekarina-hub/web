@@ -389,8 +389,8 @@ section { padding: 5rem 0; }
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
-  flex-wrap: wrap;
+  gap: 2rem;
+  flex-wrap: nowrap;
   background: var(--bg-3);
   border-radius: var(--radius);
   padding: 2rem 2.5rem;
