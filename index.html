@@ -271,7 +271,7 @@
 
   <div class="cta-bar">
     <div class="container">
-      <a href="https://cal.com/karina-jatuliene-1dvpqb/psichoterapija-pirmine-sesija" target="_blank" rel="noopener" class="btn btn-primary">REGISTRUOTIS KONSULTACIJAI</a>
+      <a data-cal-link="karina-jatuliene-1dvpqb/psichoterapija-pirmine-sesija" data-cal-origin="https://cal.com" href="#" class="btn btn-primary">REGISTRUOTIS KONSULTACIJAI</a>
     </div>
   </div>
 
@@ -334,7 +334,7 @@
           <span class="service-tag">SVEIKATA</span>
           <h3>Psichosomatiniai sutrikimai</h3>
           <p data-s1>Kūno simptomai — ligos, skausmai, lėtinis nuovargis, nemiga — visada turi psichologinį komponentą. Kartu randame emocinę priežastį ir dirbame su ja. To dažnai pakanka, kad simptomai išnyktų arba ženkliai sumažėtų.</p>
-          <a href="https://cal.com/karina-jatuliene-1dvpqb/15min" target="_blank" rel="noopener" class="btn btn-primary">REGISTRUOTIS</a>
+          <a data-cal-link="karina-jatuliene-1dvpqb/15min" data-cal-origin="https://cal.com" href="#" class="btn btn-primary">REGISTRUOTIS</a>
         </div>
       </div>
 
@@ -346,7 +346,7 @@
           <span class="service-tag">SANTYKIAI</span>
           <h3>Santykis su savimi, partneriu, tėvais, vaikais</h3>
           <p data-s2>Kai santykiai skaudina, o priežastis neaiški — ar kalbame apie partnerį, tėvus ar santykį su savimi. Dirbame individualiai. Santykiai keičiasi natūraliai, kai suprantame, kas iš tiesų vyksta.</p>
-          <a href="https://cal.com/karina-jatuliene-1dvpqb/15min" target="_blank" rel="noopener" class="btn btn-primary">REGISTRUOTIS</a>
+          <a data-cal-link="karina-jatuliene-1dvpqb/15min" data-cal-origin="https://cal.com" href="#" class="btn btn-primary">REGISTRUOTIS</a>
         </div>
       </div>
 
@@ -358,7 +358,7 @@
           <span class="service-tag">VAIKIŠKI SIMPTOMAI</span>
           <h3>Elgesys, mokymasis, ligos, baimės</h3>
           <p data-s3>Vaiko simptomai dažnai atspindi tai, kas vyksta šeimoje. Darbas vyksta ir su vaiku, ir su tėvais — nes vaikas keičiasi tada, kai keičiasi aplinka aplink jį.</p>
-          <a href="https://cal.com/karina-jatuliene-1dvpqb/15min" target="_blank" rel="noopener" class="btn btn-primary">REGISTRUOTIS</a>
+          <a data-cal-link="karina-jatuliene-1dvpqb/15min" data-cal-origin="https://cal.com" href="#" class="btn btn-primary">REGISTRUOTIS</a>
         </div>
       </div>
 
@@ -370,7 +370,7 @@
           <span class="service-tag">SUDĖTINGOS SITUACIJOS</span>
           <h3>Onkologija, priklausomybės, autoimuniniai, krizės</h3>
           <p data-s4>Sunkios diagnozės, gilios krizės, situacijos, kurių negalima "išspręsti" — tik praeiti. Einu šalia. Turiu tiek asmeninės patirties tokiuose keliuose, tiek profesinių įrankių jiems įveikti.</p>
-          <a href="https://cal.com/karina-jatuliene-1dvpqb/15min" target="_blank" rel="noopener" class="btn btn-primary">REGISTRUOTIS</a>
+          <a data-cal-link="karina-jatuliene-1dvpqb/15min" data-cal-origin="https://cal.com" href="#" class="btn btn-primary">REGISTRUOTIS</a>
         </div>
       </div>
 
@@ -380,7 +380,7 @@
           <h3>Bioreguliacinė kūno terapija</h3>
           <p data-s5>Gilioji kūno terapija, kuri dirbant su kūno blokadais ir energetiniais laukais padeda pasiekti tai, ko kartais neįmanoma pasiekti vien kalbant. Skirta tiems, kam reikia dirbti kūno lygmeniu.</p>
           <a href="https://www.facebook.com/BioenergetinisLT" target="_blank" rel="noopener" class="btn btn-outline">DAUGIAU INFORMACIJOS</a>
-          <a href="https://cal.com/karina-jatuliene-1dvpqb/30min" target="_blank" rel="noopener" class="btn btn-primary">REGISTRUOTIS</a>
+          <a data-cal-link="karina-jatuliene-1dvpqb/30min" data-cal-origin="https://cal.com" href="#" class="btn btn-primary">REGISTRUOTIS</a>
         </div>
       </div>
     </div>
@@ -452,5 +452,10 @@
   </footer>
 
   <script src="script.js"></script>
+  <script type="text/javascript">
+    (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, [L, namespace, ar[2]])} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+    Cal("init", {origin:"https://cal.com"});
+    Cal("ui", {"theme":"light","styles":{"branding":{"brandColor":"#5c5c3d"}},"hideEventTypeDetails":false,"layout":"month_view"});
+  </script>
 </body>
 </html>
