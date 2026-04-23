@@ -14,47 +14,27 @@ collections:
         file: "content/home.json"
         format: json
         fields:
-          - label: "Hero (pradžios blokas)"
-            name: "hero"
-            widget: "object"
-            fields:
-              - { label: "Antraštė", name: "title", widget: "string" }
-              - { label: "Pagrindinis tekstas", name: "text", widget: "text" }
-              - { label: "Papildomas tekstas", name: "text2", widget: "text" }
+          - { label: "Antraštė (Hero)", name: "hero_title", widget: "string" }
+          - { label: "Hero — pagrindinis tekstas", name: "hero_text", widget: "text" }
+          - { label: "Hero — papildomas tekstas", name: "hero_text2", widget: "text" }
 
-          - label: "Apie mane"
-            name: "about"
-            widget: "object"
-            fields:
-              - { label: "Antraštė", name: "title", widget: "string" }
-              - { label: "1 pastraipa", name: "p1", widget: "text" }
-              - { label: "2 pastraipa", name: "p2", widget: "text" }
-              - { label: "3 pastraipa", name: "p3", widget: "text" }
+          - { label: "Apie mane — antraštė", name: "about_title", widget: "string" }
+          - { label: "Apie mane — 1 pastraipa", name: "about_p1", widget: "text" }
+          - { label: "Apie mane — 2 pastraipa", name: "about_p2", widget: "text" }
+          - { label: "Apie mane — 3 pastraipa", name: "about_p3", widget: "text" }
 
-          - label: "Metodas"
-            name: "method"
-            widget: "object"
-            fields:
-              - { label: "Antraštė", name: "title", widget: "string" }
-              - { label: "Įvadas", name: "intro", widget: "text" }
-              - { label: "Psichika — tekstas", name: "psyche", widget: "text" }
-              - { label: "Kūnas — tekstas", name: "body", widget: "text" }
-              - { label: "Protas — tekstas", name: "mind", widget: "text" }
-              - { label: "PSY.20 aprašymas", name: "psy20", widget: "text" }
+          - { label: "Metodas — antraštė", name: "method_title", widget: "string" }
+          - { label: "Metodas — įvadas", name: "method_intro", widget: "text" }
+          - { label: "Metodas — Psichika", name: "method_psyche", widget: "text" }
+          - { label: "Metodas — Kūnas", name: "method_body", widget: "text" }
+          - { label: "Metodas — Protas", name: "method_mind", widget: "text" }
+          - { label: "PSY.20 aprašymas", name: "method_psy20", widget: "text" }
 
-          - label: "Paslaugos"
-            name: "services"
-            widget: "object"
-            fields:
-              - { label: "Psichosomatiniai sutrikimai", name: "s1", widget: "text" }
-              - { label: "Santykiai", name: "s2", widget: "text" }
-              - { label: "Vaikiški simptomai", name: "s3", widget: "text" }
-              - { label: "Sudėtingos situacijos", name: "s4", widget: "text" }
-              - { label: "Bioreguliacinė kūno terapija", name: "s5", widget: "text" }
+          - { label: "Paslauga 1 — Psichosomatika", name: "s1", widget: "text" }
+          - { label: "Paslauga 2 — Santykiai", name: "s2", widget: "text" }
+          - { label: "Paslauga 3 — Vaikiški simptomai", name: "s3", widget: "text" }
+          - { label: "Paslauga 4 — Sudėtingos situacijos", name: "s4", widget: "text" }
+          - { label: "Paslauga 5 — Bioreguliacinė terapija", name: "s5", widget: "text" }
 
-          - label: "Susisiekime"
-            name: "contact"
-            widget: "object"
-            fields:
-              - { label: "Antraštė", name: "title", widget: "string" }
-              - { label: "Tekstas", name: "text", widget: "text" }
+          - { label: "Susisiekite — antraštė", name: "contact_title", widget: "string" }
+          - { label: "Susisiekite — tekstas", name: "contact_text", widget: "text" }
