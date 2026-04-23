@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: jatulienekarina-hub/web
   branch: main
+  auth_endpoint: https://auth.sveltiacms.io/auth
 
 media_folder: "assets"
 public_folder: "/assets"
